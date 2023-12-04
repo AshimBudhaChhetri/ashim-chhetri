@@ -1,0 +1,282 @@
+
+.container-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    background-color: white;
+    height: 50px;
+    width: 1400px;
+    border-radius: 7px;
+    border: 3px solid white; 
+    box-shadow:  4px 4px 4px 4px rgba(0, 0, 0, 0.1)
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hamburger-icon {
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+select {
+    margin-right: 50px;
+    height: 35px;
+    width: 70px;
+    border-radius: 7px;
+}
+
+.date-picker {
+    margin-top: 20px;
+    border-radius: 19px;
+    width: 100px;
+}
+
+
+.date-picker input {
+    width: 100%; 
+    padding: 10px;  
+       border: 1px solid #ccc;  
+         border-radius: 7px;   
+           box-sizing: border-box; 
+}
+
+.day-value input{
+    width: 23px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    border: white;
+    background-color: white;
+}
+.actions-dropdown {
+    margin-right: 50px;
+width: 100px;}
+.add-button {
+    width: 100px;
+    height: 32px;
+    border-radius: 7px;
+    margin-right: 50px;
+}
+.jobs-button {
+    margin-right: 50px;
+    width: 100px;
+    height: 32px;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+    border:1px solid black; 
+}
+
+.bottom-part {
+    width: 1400px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.schedule-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+  }
+ 
+
+  .schedule-table th, .schedule-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  .schedule-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .schedule-table td:first-child,
+  .schedule-table th:first-child {
+    
+    border-left: 1px solid #ddd;
+    margin-left: 10px;
+  }
+  
+  .schedule-table td:last-child,
+  .schedule-table th:last-child {
+   
+    border-right: 1px solid #ddd;
+    margin-right: 10px;
+  }
+  
+  .table-search {
+    
+    width: 180px; 
+    padding: 5px; 
+    border: 0px solid #ccc; 
+    border-radius: 7px; 
+    box-sizing: border-box; 
+  }
+
+  .profile-info {
+    display: flex;
+  }
+
+  .profile-info .profile-image {
+    height: 50px;
+  }
+  .profile-info .profile-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+  }
+  .profile-info .profile-details .profile-name {
+    font-size: 17px;
+  }
+
+  .profile-info .profile-details .profile-designation {
+    margin-top: -25px;
+    font-size: 12px;
+    margin-left: 30px;
+  }
+
+  .profile-info-1{
+    display: flex;
+  }
+
+  .profile-info-1 .profile-image-1 {
+    height: 30px;
+  }
+  
+  .profile-info-1 .profile-details-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+  }
+  .profile-info-1 .profile-details-1 .profile-number {
+  
+    margin-top: -25px;
+    font-size: 12px;
+    margin-left: 20px;
+  }
+
+  .profile-task {
+    font-size: 14px;
+    margin-left: 2px;
+  }
+
+  .profile-info-2{
+    display: flex;
+  }
+
+  .profile-info-2 .profile-image-2 {
+    height: 30px;
+  }
+  
+  .profile-info-2 .profile-details-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+  }
+  .profile-info-2 .profile-details-2 .profile-number {
+  
+    margin-top: -25px;
+    font-size: 12px;
+    margin-left: 20px;
+  }
+
+  .profile-task {
+    font-size: 14px;
+    margin-left: 2px;
+  }
+
+  .profile-info-3{
+    display: flex;
+  }
+
+  .profile-info-3 .profile-image-3 {
+    height: 30px;
+  }
+  
+  .profile-info-3 .profile-details-3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+  }
+  .profile-info-3 .profile-details-3 .profile-number {
+  
+    margin-top: -25px;
+    font-size: 12px;
+    margin-left: 20px;
+  }
+
+  .profile-task {
+    font-size: 14px;
+    margin-left: 2px;
+  }
+
+  .profile-info-4{
+    display: flex;
+  }
+
+  .profile-info-4 .profile-image-4{
+    height: 30px;
+  }
+  
+  .profile-info-4 .profile-details-4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+  }
+  .profile-info-4 .profile-details-4 .profile-number {
+  
+    margin-top: -25px;
+    font-size: 12px;
+    margin-left: 20px;
+  }
+
+  .profile-task {
+    font-size: 14px;
+    margin-left: 2px;
+  }
+
+  .profile-info-5{
+    display: flex;
+  }
+
+  .profile-info-5 .profile-image-5 {
+    height: 30px;
+  }
+  
+  .profile-info-5 .profile-details-5 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+  }
+  .profile-info-5 .profile-details-5 .profile-number {
+  
+    margin-top: -25px;
+    font-size: 12px;
+    margin-left: 20px;
+  }
+
+  .profile-task {
+    font-size: 14px;
+    margin-left: 2px;
+  }

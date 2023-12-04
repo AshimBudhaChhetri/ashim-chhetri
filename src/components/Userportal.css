@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-part {
+    width: 10%;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-info-text-title {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  
+  .user-info-text-designation {
+    font-size: 12px;
+  }
+  
+  .search-box {
+    width: 147px;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    color: #CBC3E3; 
+  }
+  
+  .menu-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .account-menu {
+    
+    cursor: pointer;
+    margin-bottom: 15px;
+    align-items: flex-end;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .down-menu-item {
+    cursor: pointer;
+    margin-top: 300px;
+  }
+  
+  .menu-icon {
+    margin-right: 8px; 
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 8px;
+    border-radius: 10px;
+    justify-content: right;
+    color: white;
+    background-color: lightgreen;
+    border: 2px solid aqua;
+  
+  }
+  .right-section-content {
+    background-color: #25366F;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2px;
+    border-radius: 10px;
+    
+    
+  }
+  
+  .right-section-content h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .right-section-content ul {
+   
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .right-section-content li {
+    cursor: pointer;
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+
+  hr{
+    border-top: 1px thin #ccc;
+    width: 100;
+    margin: 0 -20px;
+  }

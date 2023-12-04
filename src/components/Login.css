@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; 
+}
+  
+  .login-wrapper {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 739px;
+    background-color: white;
+  }
+  
+  .center-part {
+    
+  display: flex;
+    max-width: 1200px; 
+    width: 100%;
+    align-items: center;
+    justify-content: space-around
+  }
+  
+  .l-part {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: -400px;
+    margin-bottom: 20px;
+    background-color: white; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    
+  }
+  
+  .logo {
+    margin-top: 10px;
+    max-width: 100%;
+    height: 80px;
+    
+  }
+  
+  .welcome-text h2 {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  
+  .welcome-text p {
+    
+    text-align: center;
+    font-size: 10px;
+    height: 12px;
+    width: 375px;
+    opacity: 0.6;
+  }
+  
+  .login-form {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input {
+    width: 328px;
+    padding: 10px;
+    margin-bottom: 19px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+   
+  }
+  input:hover {
+    border-color:blueviolet ;
+  }
+  
+  .remember-forgot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    
+  }
+    
+    .remember-forgot label,
+    .remember-forgot span {
+        font-size: 10px;
+        margin-right: -20px;
+        margin-left: 170px;
+        
+    }
+
+    .remember-forgot label {
+        margin-left: -28px;
+    }
+  .remember-forgot input[type="checkbox"] {
+    
+    width: 13px;
+    height: 13px;
+ 
+  }
+  
+  
+  button {
+    width: 350px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .bottom-part {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .social-login button {
+    width: 350px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff; 
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .register-link {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+ 
+  
+  .r-part {
+    flex: 1;
+  
+    border-radius: 8px;
+    margin-right: 120px;
+  }
+  
+  .r-part img {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 100px;
+  }
